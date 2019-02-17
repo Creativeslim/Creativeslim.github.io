@@ -1,0 +1,243 @@
+.row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    width: 100%;
+    overflow: hidden;
+    background-color: seagreen;
+    margin:0;
+    margin-right: 10px;
+    clear: right;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    border: solid grey;
+}
+.navbar-brand{
+  float: left;
+
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #7FFF00;
+    color: black;
+}
+
+
+.navnew{
+    width: 100%;
+    overflow: hidden;
+    background-color: seagreen;
+    margin:0;
+    margin-right: 10px;
+    clear: right;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    border: solid grey;
+}
+
+.navnew a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navnew a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+input[type=cancel] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=cancel]:hover {
+    background-color: #45a049;
+}
+
+
+.mybtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.mybtn:hover {
+    opacity: 0.8;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: black;
+}
+footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+div.leftcolumn {   
+    float: left;
+    width: 50%;
+    background-color: silver;
+}
+
+/* Right column */
+div.rightcolumn {
+    float: right;
+    width: 50%;
+    background-color: silver;
+    padding-left: 20px;
+}
+
+
+
+/* Add a card effect for articles */
+div.card {
+     background-color: cornsilk;
+     padding: 20px;
+     margin-top: 20px;
+     overflow: auto;
+}
+
+/* Clear floats after the columns */
+div.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.navbar{
+    width: 100%;
+    overflow: hidden;
+    background-color: seagreen;
+    margin:0;
+    margin-right: 10px;
+    clear: right;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    border: solid grey;
+}
+.navbar-brand{
+  float: left;
+
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #7FFF00;
+    color: black;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    }
+
+.containew{
+    padding-right: 0;
+    padding-left: 0;
+    background-color: white;
+}
+
+.rnew {
+    width: 100%;
+    height: auto;
+}

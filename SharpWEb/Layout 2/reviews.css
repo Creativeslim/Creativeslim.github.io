@@ -1,0 +1,125 @@
+
+* {
+    box-sizing: border-box;
+}
+.navnew{
+    width: 100%;
+    overflow: hidden;
+    background-color: seagreen;
+    margin:0;
+    margin-right: 10px;
+    clear: right;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    border: solid grey;
+}
+
+.navnew a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navnew a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+div.header{
+
+	     background-color: black;
+         width: 100%;
+         height: 410px;
+         background-image: url(microtonal-music-750x410.jpg);
+         background-position: right;
+         background-repeat: no-repeat;
+         font-family: "Times New Roman", cursive;
+         font-style: italic;
+         font-size: 38px;
+         text-align: left;
+         font-weight: bold;
+         color:silver;
+
+         padding-top: 8px;
+         text-shadow: 3px 3px lightslategray;
+}
+
+div.topnav {
+	width: 100%;
+    overflow: hidden;
+    background-color: seagreen;
+    margin:0;
+    clear: right;
+    position: fixed;
+    top:0;
+   
+
+}
+.active {
+    background-color: #4CAF50;
+}
+/* Navbar links */
+div.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+div.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+footer{
+    padding: 20px;
+    color: black;
+    font-size: 10px;
+    background-color: seagreen;
+    clear: both;
+    text-align: center;
+}
+
+div.leftcolumn {   
+    float: left;
+    width: 75%;
+    background-color: silver;
+}
+
+/* Right column */
+div.rightcolumn {
+    float: right;
+    width: 25%;
+    height: 1280px;
+    background-color: silver;
+    padding-left: 20px;
+}
+
+/* Fake image */
+div.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+div.card {
+     background-color: cornsilk;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+div.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

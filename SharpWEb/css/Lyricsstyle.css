@@ -1,0 +1,72 @@
+.row.content {height: 1500px}
+    
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+* {
+    box-sizing: border-box;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: black;
+}
+footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+
+/* Add a card effect for articles */
+div.card {
+     background-color: cornsilk;
+     padding: 20px;
+     margin-top: 20px;
+     overflow: auto;
+}
+
+.navbar{
+    width: 100%;
+    overflow: hidden;
+    background-color: seagreen;
+    margin:0;
+    margin-right: 10px;
+    clear: right;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    border: solid grey;
+}
+.navbar-brand{
+  float: left;
+
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #7FFF00;
+    color: black;
+}
